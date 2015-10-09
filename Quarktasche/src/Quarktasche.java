@@ -4,6 +4,7 @@ public class Quarktasche {
 	String name;
 	int length;
 	int width;
+	String taste;
 	Quarktasche(){
 		
 	}
@@ -11,10 +12,11 @@ public class Quarktasche {
 	Quarktasche(String name){
 		setName(name);
 	}
-	Quarktasche(String name, int length, int witdth){
+	Quarktasche(String name, int length, int witdth, String taste){
 		setName(name);
 		setLength(length);
 		setWidth(witdth);
+		setTaste(taste);
 		
 	}
 	public String getName() {
@@ -39,6 +41,14 @@ public class Quarktasche {
 
 	public void setWidth(int width) {
 		this.width = width;
+	}
+	
+	public void setTaste(String taste){
+		this.taste = taste;
+	}
+	
+	public String getTaste(){
+		return taste;
 	}
 
 	@Override

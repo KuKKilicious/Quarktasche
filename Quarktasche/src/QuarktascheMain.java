@@ -5,7 +5,7 @@ public class QuarktascheMain {
 		
 	Quarktasche q1=new Quarktasche("Hulululu");
 	System.out.println(q1);
-	Quarktasche q2=new Quarktasche("Hulululu", 30, 50);
+	Quarktasche q2=new Quarktasche("Hulululu", 30, 50, "cherry");
 	}
 
 }
