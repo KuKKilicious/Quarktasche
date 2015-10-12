@@ -3,6 +3,7 @@ public class Quarktasche {
 
 	String name;
 	int length;
+	int momy;
 	int width;
 	String taste;
 	Quarktasche(){
